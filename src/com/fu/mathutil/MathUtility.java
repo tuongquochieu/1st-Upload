@@ -30,7 +30,7 @@ public class MathUtility {
         if(n == 0 || n == 1) return 1;
         
         //cpu chạy đến đây sure n=2..20
-        long result = 0; //cố tình để 0 để thử nghiệm
+        long result = 1; //cố tình để 0 để thử nghiệm
         for(int i = 2 ; i <= n ; i++)
             result *= i;
         
