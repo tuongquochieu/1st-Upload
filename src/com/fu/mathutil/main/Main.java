@@ -20,8 +20,8 @@ public class Main {
         // TODO code application logic here
         
         // Tôi muốn test xem 5! có bằng 120 không?
-        long expected= 120; //tôi hy vọng 120 là giá trị trả về
-        int n= 5;           // nếu tôi tính 5!
+        long expected = 120; //tôi hy vọng 120 là giá trị trả về
+        int n = 5;           // nếu tôi tính 5!
         long actual= MathUtility.getFactorial(n);
                             //actual: cái value hàm thực sự trả về
         // ta đi so sánh = mắt để luận xem hàm ta viết chạy đúng hay không
